@@ -355,6 +355,7 @@ body {
 
     .content header .icons {
         margin-right: 10px;
+        gap: 14px;
     }
 
     .content header .search,
@@ -677,6 +678,9 @@ body {
     }
     .content .web-content .sections  .top-charts .song:last-of-type .info {
         width: 100px;
+    }
+    .content .web-content .sections  .top-charts .song:last-of-type .info span:nth-of-type(2) {
+        font-size: 12px;
     }
 }
 
