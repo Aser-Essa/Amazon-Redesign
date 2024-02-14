@@ -140,6 +140,7 @@ body {
 @media (max-width: 1279px) {
     .page .side-bar .google-pod {
         bottom: 80px;
+        right: 20px;
     }
 }
 
@@ -350,6 +351,10 @@ body {
         margin-right: auto;
         gap: 14px;
         margin-left: 42px;
+    }
+
+    .content header .icons {
+        margin-right: 10px;
     }
 
     .content header .search,
@@ -667,10 +672,10 @@ body {
     .content .web-content .sections  .top-charts .song .settings span {
         font-size: 14px;
     }
-    .content .web-content .sections  .top-charts .info {
+    .content .web-content .sections  .top-charts .song .info {
         width: 50px;
     }
-    .content .web-content .sections  .top-charts .info:last-of-type {
+    .content .web-content .sections  .top-charts .song:last-of-type .info {
         width: 100px;
     }
 }
