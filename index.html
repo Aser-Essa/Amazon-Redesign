@@ -3,484 +3,1051 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/output.css">
-    <link rel="stylesheet" href="./src/all.min.css">
-    <link rel="stylesheet" href="./main-style.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/output.css">
+    <link rel="stylesheet" href="./css/main.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
-    <title>Music Site</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Amazon Redesign</title>
 
 </head>
 <body>
 
-    <div class="page flex">
+    <div class="page pt-2 p-6">
 
-        <div class="side-bar-sec">
+        <div class="top-heading flex justify-between items-center text-sm">
 
-            <i class="fa-solid fa-bars other-links"></i>
+            <span>Amazon&#39s response to COVID-19</span>
 
-            <div class="side-bar px-7 pt-5 h-full relative">
+            <ul class="links flex items-center gap-5">
+                <li><a href="" class="flex items-center gap-1">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Ukraine
+                    <i class="fa-solid fa-angle-down fa-fw mt-1 text-xs"></i>
+                </a></li>
+                <li><a href="" class="flex items-center gap-1">
+                    <i class="fa-solid fa-globe fa-fw"></i>
+                    ENG
+                    <i class="fa-solid fa-angle-down fa-fw mt-1 text-xs"></i>
+                </a></li>
+                <li><a href="" class="flex items-center gap-1">
+                    USD
+                    <i class="fa-solid fa-angle-down fa-fw mt-1 text-xs"></i>
+                </a></li>
+                <li><a href="" class="flex items-center gap-1">
+                    Customer Service
+                </a></li>
+                <li><a href="" class="flex items-center gap-1">
+                    Sell on Amazon
+                </a></li>
+            </ul>
 
-                <div class="title flex items-center text-white font-bold mb-5 mt-2.5">
-                    <img src="images/sound.png" alt="" class="w-6 mr-2">
-                    <p>Groovvy</p>
-                </div>
-
-                <div class="menu">
-
-                <div class="list mb-12">
-                    <h4 class="ml-1 font-bold mb-5 text-sm">MENU</h4>
-                    <ul class="text-white font-bold">
-
-                        <li class="pb-2 mb-4">
-                            <a href="" class="flex items-center ">
-                                <i class="fa-solid fa-bolt fa-fw mr-4 "></i>
-                                <span>Explore</span>
-                            </a>
-                        </li>
-
-                        <li class="pb-2 mb-4">
-                            <a href="" class="flex items-center ">
-                                <i class="fa-solid fa-volume-low fa-fw mr-4 "></i>
-                                <span>Genres</span>
-                            </a>
-                        </li>
-
-                        <li class="pb-2 mb-4">
-                            <a href="" class="flex items-center ">
-                                <i class="fa-solid fa-circle-dot fa-fw mr-4 "></i>
-                                <span>Albums</span>
-                            </a>
-                        </li>
-
-                        <li class="pb-2 mb-4">
-                            <a href="" class="flex items-center ">
-                                <i class="fa-solid fa-microphone fa-fw mr-4 "></i>
-                                <span>Artists</span>
-                            </a>
-                        </li>
-
-                        <li class="pb-2 mb-4">
-                            <a href="" class="flex items-center ">
-                                <i class="fa-solid fa-radio fa-fw mr-4 "></i>
-                                <span>Radio</span>
-                            </a>
-                        </li> 
-                    </ul>
-                </div>
-
-                <div class="list mb-12">
-                    <h4 class="ml-1 font-bold mb-5 text-sm">LIBIRARY</h4>
-                    <ul class="text-white font-bold">
-
-                        <li class="pb-2 mb-4">
-                            <a href="" class="flex items-center ">
-                                <i class="fa-solid fa-rotate-left fa-fw mr-4"></i>
-                                <span>Recent</span>
-                            </a>
-                        </li>
-
-                        <li class="pb-2 mb-4">
-                            <a href="" class="flex items-center ">
-                                <i class="fa-solid fa-file-audio fa-fw mr-4"></i>
-                                <span>Albums</span> 
-                            </a> 
-                            </a>  
-                        </li>
-
-                        <li class="pb-2 mb-4">
-                            <a href="" class="flex items-center ">
-                                <i class="fa-solid fa-heart fa-fw mr-4"></i>
-                                <span>Favourites</span>
-                            </a>
-                        </li>
-            
-
-                        <li class="pb-2 mb-4">
-                            <a href="" class="flex items-center ">
-                                <i class="fa-solid fa-folder fa-fw mr-4"></i>
-                                <span>Local</span>
-                            </a>
-                        </li>                                    
-
-                    </ul>
-                </div>
-
-                <div class="list">
-                    <h4 class="ml-1 font-bold mb-5 text-sm">PLAYLIST</h4>
-                    <ul class="text-white font-bold">
-
-                        <li class="pb-2 mb-4">
-                            <a href="" class="flex items-center ">
-                                <i class="fa-solid fa-square-plus fa-fw mr-4"></i>
-                                <span>Create New</span>
-                            </a>
-                        </li>
-
-                        <li class="pb-2 mb-4">
-                            <a href="" class="flex items-center">
-                                <i class="fa-solid fa-circle-play fa-fw mr-4"></i>
-                                <span>Design Flow</span>
-                            </a>
-                        </li>
-
-                        <li class="pb-2 mb-4">
-                            <a href="" class="flex items-center">
-                                <i class="fa-solid fa-circle-play fa-fw mr-4"></i>
-                                <span>Best of 2023</span>
-                            </a>
-                        </li>
-
-                        <li class="pb-2 mb-4">
-                            <a href="" class="flex items-center">
-                                <i class="fa-solid fa-circle-play fa-fw mr-4"></i>
-                                <span>Local</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                </div>
-                
-                <div class="google-pod rounded-md absolute">
-                    <div class="top flex items-center text-white text-xs font-bold p-2.5 rounded-md">
-                        <img src="images/google-pod.jpg" alt="" class="mr-2 rounded-md">
-                        <p class="w-28">Google<br>Home Pod</p>
-                    </div>
-                    <span class="py-1.5 text-center block">Playing on Devices</span>
-
-                </div>
-
-            </div>
         </div>
 
+        <div class="heading flex items-center mt-8 bg-white z-50">
 
-        <div class="content py-5 px-9">
+            <img src="images/logo.png" alt="" class="logo w-24 mr-10 ml-4">
 
-            <header class="flex items-center">
-                <ul class=" text-white flex items-center gap-6">
-                    <li><a href="" class="font-bold">MUSIC</a></li>
-                    <li><a href="">PODCAST</a></li>
-                    <li><a href="" class="mr-4  max-md:mr-1">LIVE</a></li>
+            <div class="nav-links flex items-center justify-between w-full text-lg relative">
+
+                <ul class="list flex items-center gap-6">
+                    <li>
+                        <a href="" class="flex items-center">
+                        <span class="icon-grid mr-2 text-xl"></span>
+                        ALL</a>
+                    </li>
+                    <li><a href="">Today&#39s Deals</a></li>
+                    <li><a href="">Gift Cards</a></li>
+                    <li><a href="">Registry &amp; Gifting</a></li>
                 </ul>
-                <div class="search relative flex items-center mx-auto">
-                    <i class="fa-solid fa-magnifying-glass fa-fw absolute text-white ml-2.5"></i>
-                    <input type="search" placeholder="Type here to search" class="text-sm p-3 px-10 rounded-lg">
-                </div>
-                <div class="icons flex items-center gap-6">
-                    <i class="fa-solid fa-bell bell-icon fw-fw text-lg relative ml-4"></i>
-                    <i class="fa-solid fa-gear gear-icon fa-fw text-lg"></i>
-                    <i class="fa-solid fa-magnifying-glass fa-fw mr-3 text-lg search-icon"></i>
-                    <div class="user flex items-center text-white relative rounded-md cursor-pointer">
-                        <div class="user-img absolute flex items-center justify-center rounded-md">
-                            <img src="images/ME.jpg" alt="">
+
+                <ul class="icons flex items-center gap-6">
+                    <li><a href="" class="flex items-center relative">
+                        <div class="search absolute bg-white text-end">
+                            <i class="fa-solid fa-magnifying-glass fa-fw"></i>
                         </div>
-                        <p class="font-bold ml-2 pr-2.5">Aser Essa</p>
-                    </div>
-
-                </div>
-
-
-
-
-                
-
-                
-
-
-
-
-            </header>
-
-            <div class="landing text-white text-xl flex justify-between">
-
-                <div class="text w-full">
-                    <h2 class=" mt-14">Trending New Hits</h2>
-                    <div class="info mt-10 ml-14">
-                        <p class="font-bold text-7xl mb-2  max-xl:text-6xl">In My Feelings</p>
-                        <span class=" font-medium text-2xl max-md:text-lg">Camila Cabello</span>
-                        <span class="ml-4 text-lg max-md:text-base">63Million Plays</span>
-                        <div class="buttons flex items-center gap-6 mt-8">
-                            <a href="" class="inline-block text-base py-2.5 px-5 rounded-3xl">Listen Now</a>
-                            <i class="fa-solid fa-heart fa-fw items-center justify-center rounded-full cursor-pointer"></i>
-                        </div>
-                    </div>
-                </div>
-
-                <img src="images/camilia.jpg" alt="" class="">
-
-
-            </div>
-
-            <div class="web-content flex gap-5 relative">
-
-                <div class="sections flex gap-5">
-
-                    <div class="top-artists-sec p-7 rounded-lg">
-
-                        <div class="text flex items-center justify-between mb-7 ">
-                            <h3 class="text-white text-lg font-bold">Top Artists</h3>
-                            <span class=" text-sm font-bold cursor-pointer">See all</span>
-                        </div>
-
-                        <div class="artists relative overflow-x-auto">
-
-                            <div class="scroll absolute flex items-center gap-6 ">
-
-                                <div class="artist text-center">
-                                    <div class="image rounded-md mb-3 relative overflow-hidden">
-                                        <img src="images/travis.jpg" alt="" class="cursor-pointer w-full h-full">
-                                    </div>
-                                    <span class="block text-white font-semibold mb-1">Travis Scott</span>
-                                    <span class="block  font-medium text-sm">44M Plays</span>
-                                </div>
-
-                                <div class="artist text-center">
-                                    <div class="image rounded-md mb-3 relative overflow-hidden">
-                                        <img src="images/bille.jpg" alt="" class="cursor-pointer w-full h-full">
-                                    </div>
-                                    <span class="block text-white font-semibold mb-1">Bille Ellish</span>
-                                    <span class="block  font-medium text-sm">203M Plays</span>
-                                </div>
-
-                                <div class="artist text-center">
-                                    <div class="image rounded-md mb-3 relative overflow-hidden">
-                                        <img src="images/thiskid.jpg" alt="" class="cursor-pointer w-full h-full">
-                                    </div>
-                                    <span class="block text-white font-semibold mb-1">This Kid</span>
-                                    <span class="block  font-medium text-sm">63M Plays</span>
-                                </div>
-
-                                <div class="artist text-center">
-                                    <div class="image rounded-md mb-3 relative overflow-hidden">
-                                        <img src="images/kanye.jpg" alt="" class="cursor-pointer w-full h-full">
-                                    </div>
-                                    <span class="block text-white font-semibold mb-1">Kanye</span>
-                                    <span class="block  font-medium text-sm">15M Plays</span>
-                                </div>
-
-                                <div class="artist text-center">
-                                    <div class="image rounded-md mb-3 relative overflow-hidden">
-                                        <img src="images/alanwalker.jpg" alt="" class="cursor-pointer w-full h-full">
-                                    </div>
-                                    <span class="block text-white font-semibold mb-1">Alan Walker</span>
-                                    <span class="block  font-medium text-sm">195M Plays</span>
-                                </div>
-
-                                <div class="artist text-center">
-                                    <div class="image rounded-md mb-3 relative overflow-hidden">
-                                        <img src="images/starboy.jpg" alt="" class="cursor-pointer w-full h-full">
-                                    </div>
-                                    <span class="block text-white font-semibold mb-1">Starboy</span>
-                                    <span class="block  font-medium text-sm">100M Plays</span>
-                                </div>
-
-                                <div class="artist text-center">
-                                    <div class="image rounded-md mb-3 relative overflow-hidden">
-                                        <img src="images/abyusif.jpg" alt="" class="cursor-pointer w-full h-full">
-                                    </div>
-                                    <span class="block text-white font-semibold mb-1">Abyusif</span>
-                                    <span class="block  font-medium text-sm">112M Plays</span>
-                                </div>
-
-                                <div class="artist text-center">
-                                    <div class="image rounded-md mb-3 relative overflow-hidden">
-                                        <img src="images/paplo.jpg" alt="" class="cursor-pointer w-full h-full">
-                                    </div>
-                                    <span class="block text-white font-semibold mb-1">M .Paplo</span>
-                                    <span class="block  font-medium text-sm">136M Plays</span>
-                                </div>
-
-                                <div class="artist text-center">
-                                    <div class="image rounded-md mb-3 relative overflow-hidden">
-                                        <img src="images/amireid.jpg" alt="" class="cursor-pointer w-full h-full">
-                                    </div>
-                                    <span class="block text-white font-semibold mb-1">Cairokee</span>
-                                    <span class="block  font-medium text-sm">320M Plays</span>
-                                </div>
-
-                                <div class="artist text-center">
-                                    <div class="image rounded-md mb-3 relative overflow-hidden">
-                                        <img src="images/amrdiab.jpg" alt="" class="cursor-pointer w-full h-full">
-                                    </div>
-                                    <span class="block text-white font-semibold mb-1">Amr Diab</span>
-                                    <span class="block  font-medium text-sm">540M Plays</span>
-                                </div>
-
-                        </div>
-                    </div>
-                    </div>
-
-                    <div class="genres-sec p-7 rounded-lg">
-
-                        <div class="text flex items-center justify-between mb-7 ">
-                            <h3 class="text-white text-lg font-bold">Genres</h3>
-                            <span class=" text-sm font-bold cursor-pointer">See all</span>
-                        </div>
-                        
-                        <div class="genres flex flex-wrap gap-3 text-white text-base font-medium">
-
-                            <div class="block-1 rounded-lg">
-                                <p class="flex items-center cursor-pointer">Dance Beat</p>
-                            </div>
-
-                            <div class="block-1 rounded-lg">
-                                <p class="flex items-center cursor-pointer">Electro Pop</p>
-                            </div>
-                            
-                            <div class="block-1 rounded-lg">
-                                <p class="flex items-center cursor-pointer ">Alternative Indie</p>
-                            </div>
-
-                            <div class="block-1 rounded-lg">
-                                <p class="flex items-center cursor-pointer">Hip Hop</p>
-                            </div>
-
-                            <div class="block-1 rounded-lg">
-                                <p class="flex items-center cursor-pointer text-sm">Classical Period</p>
-                            </div>
-
-                            <div class="block-1 rounded-lg">
-                                <p class="flex items-center cursor-pointer">Hip Hop Rap</p>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="top-charts p-7 rounded-lg">
-
-                        <div class="text flex items-center justify-between mb-7 ">
-                            <h3 class="text-white text-lg font-bold">Top Charts</h3>
-                            <span class=" text-sm font-bold cursor-pointer">See all</span>
-                        </div>
-
-                        <div class="song flex items-center mb-7">
-                            <img src="images/havana.png" alt="" class="rounded-xl mr-4">
-                            <div class="info mr-auto">
-                                <span class="block font-bold text-base text-white">Havana</span>
-                                <span class="block text-sm">Camila Cabello</span>
-                            </div>
-                            <div class="settings flex gap-7 items-center">
-                                <span class="text-white font-bold">3:45</span>
-                                <i class="fa-solid fa-play fa-fw items-center justify-center cursor-pointer"></i>
-                                <i class="fa-solid fa-square-plus fa-fw cursor-pointer"></i>
-                            </div>
-                        </div>
-
-                        <div class="song flex items-center mb-7">
-                            <img src="images/kanye.jpg" alt="" class="rounded-xl mr-4">
-                            <div class="info mr-auto">
-                                <span class="block font-bold text-base text-white">Heartless</span>
-                                <span class="block text-sm">Kanye West</span>
-                            </div>
-                            <div class="settings flex gap-7 items-center">
-                                <span class="text-white font-bold">3:45</span>
-                                <i class="fa-solid fa-play fa-fw items-center justify-center cursor-pointer"></i>
-                                <i class="fa-solid fa-square-plus fa-fw cursor-pointer"></i>
-                            </div>
-                        </div>
-                        
-                        <div class="song flex items-center mb-7">
-                            <img src="images/closer.jpg" alt="" class="rounded-xl mr-4">
-                            <div class="info mr-auto">
-                                <span class="block font-bold text-base text-white">Closer</span>
-                                <span class="block text-sm">The Chainsmokers</span>
-                            </div>
-                            <div class="settings flex gap-7 items-center">
-                                <span class="text-white font-bold">3:45</span>
-                                <i class="fa-solid fa-play fa-fw items-center justify-center cursor-pointer"></i>
-                                <i class="fa-solid fa-square-plus fa-fw cursor-pointer"></i>
-                            </div>
-                        </div>
-
-                        <div class="song flex items-center">
-                            <img src="images/lean on.jpg" alt="" class="rounded-xl mr-4">
-                            <div class="info mr-auto">
-                                <span class="block font-bold text-base text-white">Lean On</span>
-                                <span class="block text-sm">Major Lazer ft.DJ Snake</span>
-                            </div>
-                            <div class="settings flex gap-7 items-center">
-                                <span class="text-white font-bold">3:45</span>
-                                <i class="fa-solid fa-play fa-fw items-center justify-center cursor-pointer"></i>
-                                <i class="fa-solid fa-square-plus fa-fw cursor-pointer"></i>
-                            </div>
-                        </div>
-                        
-                    </div>
-                        
-                </div>
-
-                <div class="player p-7 rounded-lg relative">
-
-                    <div class="text flex items-center justify-between mb-10 ">
-                        <h3 class="text-white text-lg font-bold">Player</h3>
-                        <img src="images/music-icon.png" alt="" class=" w-6">
-                    </div>
-
-                    <img src="images/travis.jpg" alt="" class=" rounded-lg mx-auto mb-7">
-
-                    <div class="info text-center">
-                        <h3 class=" text-4xl text-white font-medium mb-2">Butterfly Effect</h3>
-                        <span class="block text-white text-2xl mb-1.5">Travis Scott</span>
-                        <span class="block text-base">Best of 2020</span>
-                    </div>
-
-                    <div class="time-bar flex items-center justify-center mt-9 text-white text-sm ">
-                        <span>2:45</span>
-                        <div class=" mx-6 rounded-3xl">
-                            <span style="width: 70%;" class="block bg-white relative h-full rounded-3xl"></span>
-                        </div>
-                        <span>1:02</span>
-                    </div>
-
-                    <div class="bottom absolute w-full bottom-0 left-0 rounded-md text-white text-lg">
-                        <div class="settings flex items-center justify-center mt-14">
-                            <i class="fa-solid fa-repeat fa-fw mr-10 cursor-pointer"></i>
-                            <i class="fa-solid fa-backward-step fa-fw mr-10 cursor-pointer"></i>
-                            <i class="fa-solid fa-play fa-fw play bg-white items-center justify-center rounded-2xl text-base cursor-pointer"></i>
-                            <i class="fa-solid fa-forward-step fa-fw ml-10 cursor-pointer"></i>
-                            <i class="fa-solid fa-shuffle fa-fw ml-10 cursor-pointer"></i>
-                        </div>
-                        <div class="lyrics text-center ">
-                            <i class="fa-solid fa-angle-up text-base"></i>
-                            <span class="block text-base">LYRICS</span>
-                        </div>
-
-                    </div>
-
-                </div>
+                        <p>Search</p>
+                    </a></li>
+                    <li><a href="">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                    </a></li>
+                    <li><a href="">
+                        <i class="fa-regular fa-heart fa-fw"></i>
+                    </a></li>
+                    <li><a href="">
+                        <i class="fa-solid fa-cart-shopping fa-fw"></i>
+                    </a></li>
+                </ul>
 
             </div>
         </div>
 
-        <div class="mobile-player flex items-center mr-10 relative">
-            <img src="images/travis.jpg" alt="" class=" rounded-full mr-6">
-            <div class="info text-white mr-8">
-                <span class="block text-sm">Butterfly Effect</span>
-                <span class="block">Travis Scott</span>
-            </div>
-            <div class="settings flex items-center gap-6 text-white mr-7">
-                <i class="fa-solid fa-backward-step fa-fw cursor-pointer backward"></i>
-                <i class="fa-solid fa-play fa-fw play items-center justify-center rounded-full text-base cursor-pointer"></i>
-                <i class="fa-solid fa-forward-step fa-fw cursor-pointer forward"></i>
-            </div>
-            <div class="time-bar flex items-center justify-center text-white text-sm mr-7 ">
-                <span>2:45</span>
-                <div class=" mx-4 rounded-3xl">
-                    <span style="width: 70%;" class="block bg-white relative h-full rounded-3xl"></span>
+        <div class="mobile-icons hidden items-center justify-around fixed bottom-0 z-50 bg-white py-6">
+            <span class="icon-grid"></span>
+            <i class="fa-regular fa-user fa-fw"></i>
+            <i class="fa-regular fa-heart fa-fw"></i>
+            <i class="fa-solid fa-magnifying-glass fa-fw"></i>
+        </div>
+
+        <div class="landing flex items-center justify-between relative mt-7 p-5 rounded-sm overflow-hidden">
+
+            <ul class="bullets flex flex-col">
+                <li></li>
+                <li class="active relative"></li>
+                <li></li>
+                <li></li>
+            </ul>
+
+            <div class=" text ml-28">
+
+                <div class="paragraph font-bold">
+                    <div class="inline-block">
+                        <span>S</span>
+                        <span>H</span>
+                        <span>O</span>
+                        <span>P</span>
+                    </div>
+                    <div class="inline-block ml-3">
+                        <span>C</span>
+                        <span>O</span>
+                        <span>M</span>
+                        <span>P</span>
+                        <span>U</span>
+                        <span>T</span>
+                        <span>E</span>
+                        <span>R</span>
+                        <span>S</span>
+                    </div>
+                    <div>
+                        <span class="mr-2">&amp;</span>
+                        <span>A</span>
+                        <span>C</span>
+                        <span>C</span>
+                        <span>E</span>
+                        <span>S</span>
+                        <span>S</span>
+                        <span>O</span>
+                        <span>R</span>
+                        <span>I</span>
+                        <span>E</span>
+                        <span>S</span>
+                    </div>
                 </div>
-                <span>1:02</span>
+
+                <div class="details mt-4 text-lg">
+
+                    <div class="line overflow-hidden">
+                        <p>Shop laptops, desktops, monitors, tablets, PC</p>
+                    </div>
+
+                    <div class="line overflow-hidden">
+                        <p>gaming, hard drives and storage, accessories and</p>
+                    </div>
+
+                    <div class="line overflow-hidden">
+                        <p>more</p>
+                    </div>
+
+                </div>
+
+                <a href="" class="w-fit flex items-center justify-center py-1 px-3 rounded-md mt-5">
+                    <p>view more</p>
+                </a>
+
             </div>
-            <div class="icons flex items-center gap-6 text-white">
-                <i class="fa-solid fa-shuffle fa-fw cursor-pointer"></i>
-                <i class="fa-solid fa-repeat fa-fw cursor-pointer"></i>
-                <i class="fa-solid fa-volume-high fa-fw cursor-pointer"></i>
-                <img src="images/music-icon.png" alt="" class=" cursor-pointer">
+
+            <div class="offer flex items-center h-full">
+
+                <div class="card">
+                    <div class="offer-content bg-white rounded-xl py-6 px-8 relative overflow-hidden">
+
+                        <span class="title relative text-sm">Computer & Accessories</span>
+
+                        <p class="product-name relative text-xl my-2">JBL T460BT Black<br>
+                            Headphones
+                        </p>
+
+                        <div class="stars relative inline-block mr-2 text-sm">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+
+                        <span class="reviews relative">1245 reviews</span>
+
+                        <div class="price relative flex items-center mt-4 font-semibold">
+                            <span class=" text-2xl mr-6">$125.00</span>
+                            <span class="">$250.00</span>
+                        </div>
+
+                        <a href="" class="block mt-3 relative">
+                            View more
+                            <i class="fa-solid fa-arrow-right-long fa-fw"></i>
+                        </a>
+
+                    </div>
+                </div>
+                
+                <div class="image">
+                    <img src="images/landing.png" alt="" class="w-full h-full">
+                </div>
+                
+                <div class="sale-label absolute">
+                    <span class="sale rounded-full flex items-center justify-center text-white text-2xl font-normal">50%</span>
+                </div>
+
+            </div>
+
+        </div>  
+
+        <div class="personal-offers mt-5 rounded-sm flex">
+            <div class="first-part flex items-center pl-5">
+                <img src="images/landing1.png" alt="" class=" w-20 mr-3">
+                <div class="text">
+                    <span class="block">Hi, Tomas</span>
+                    <span class="text-base">recommendations for<br>you</span>
+                </div>
+            </div>
+            <div class="slide overflow-x-auto p-5 pl-0">
+                <div class="content flex items-center gap-36 ">
+                    <div class="part flex items-center">
+                        <img src="images/landing2.png" alt="" class=" w-20 mr-3">
+                        <div class="text">
+                            <span class="block">Your Orders</span>
+                            <span class="text-sm">View your orders</span>
+                        </div>
+                    </div>
+                    <div class="part flex items-center">
+                        <img src="images/landing.png" alt="" class=" w-20 mr-5">
+                        <div class="text">
+                            <span class="block">Your Orders</span>
+                            <span class="text-sm">View your orders</span>
+                        </div>
+                    </div>
+                    <div class="part flex items-center">
+                        <img src="images/landing3.png" alt="" class="w-20">
+                        <div class="text">
+                            <span class="block">Your Orders</span>
+                            <span class="text-sm">View your orders</span>
+                        </div>
+                    </div>
+                    <div class="part flex items-center">
+                        <img src="images/landing2.png" alt="" class=" w-20 mr-3">
+                        <div class="text">
+                            <span class="block">Your Orders</span>
+                            <span class="text-sm">View your orders</span>
+                        </div>
+                    </div>
+                    <div class="part flex items-center">
+                        <img src="images/landing.png" alt="" class=" w-20 mr-5">
+                        <div class="text">
+                            <span class="block">Your Orders</span>
+                            <span class="text-sm">View your orders</span>
+                        </div>
+                    </div>
+                    <div class="part flex items-center">
+                        <img src="images/landing3.png" alt="" class="w-20">
+                        <div class="text">
+                            <span class="block">Your Orders</span>
+                            <span class="text-sm">View your orders</span>
+                        </div>
+                    </div>
+                    <div class="part flex items-center">
+                        <img src="images/landing2.png" alt="" class=" w-20 mr-3">
+                        <div class="text">
+                            <span class="block">Your Orders</span>
+                            <span class="text-sm">View your orders</span>
+                        </div>
+                    </div>
+                    <div class="part flex items-center">
+                        <img src="images/landing.png" alt="" class=" w-20 mr-5">
+                        <div class="text">
+                            <span class="block">Your Orders</span>
+                            <span class="text-sm">View your orders</span>
+                        </div>
+                    </div>
+                    <div class="part flex items-center">
+                        <img src="images/landing3.png" alt="" class="w-20">
+                        <div class="text">
+                            <span class="block">Your Orders</span>
+                            <span class="text-sm">View your orders</span>
+                        </div>
+                    </div>
+                    <div class="part flex items-center">
+                        <img src="images/landing2.png" alt="" class=" w-20 mr-3">
+                        <div class="text">
+                            <span class="block">Your Orders</span>
+                            <span class="text-sm">View your orders</span>
+                        </div>
+                    </div>
+                    <div class="part flex items-center">
+                        <img src="images/landing.png" alt="" class=" w-20 mr-5">
+                        <div class="text">
+                            <span class="block">Your Orders</span>
+                            <span class="text-sm">View your orders</span>
+                        </div>
+                    </div>
+                    <div class="part flex items-center">
+                        <img src="images/landing3.png" alt="" class="w-20">
+                        <div class="text">
+                            <span class="block">Your Orders</span>
+                            <span class="text-sm">View your orders</span>
+                        </div>
+                    </div>
+                    <div class="part flex items-center">
+                        <img src="images/landing2.png" alt="" class=" w-20 mr-3">
+                        <div class="text">
+                            <span class="block">Your Orders</span>
+                            <span class="text-sm">View your orders</span>
+                        </div>
+                    </div>
+                    <div class="part flex items-center">
+                        <img src="images/landing.png" alt="" class=" w-20 mr-5">
+                        <div class="text">
+                            <span class="block">Your Orders</span>
+                            <span class="text-sm">View your orders</span>
+                        </div>
+                    </div>
+                    <div class="part flex items-center">
+                        <img src="images/landing3.png" alt="" class="w-20">
+                        <div class="text">
+                            <span class="block">Your Orders</span>
+                            <span class="text-sm">View your orders</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+
+        <div class="categories mt-12 opacity-0"> 
+
+            <div class="top-sec flex items-center justify-between">
+                <h3 class="text-lg">Shop by categories</h3>
+                <span class="flex items-center gap-2">All Departments
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </span>
+            </div>
+
+            <div class="cards grid gap-4 mt-5">
+
+                <div class="card relative overflow-hidden cursor-pointer">
+                    <img src="images/category1.png" alt="">
+                    <span class="absolute text-xl">Beauty picks</span>
+                </div>
+
+                <div class="card relative overflow-hidden cursor-pointer">
+                    <img src="images/category2.png" alt="">
+                    <span class="absolute text-xl">Computer &amp; Accessories </span>
+                </div>
+
+                <div class="card relative overflow-hidden cursor-pointer">
+                    <img src="images/category3.png" alt="">
+                    <span class="absolute text-xl">Beauty picks</span>
+                </div>
+
+                <div class="card relative overflow-hidden cursor-pointer">
+                    <img src="images/category4.png" alt="">
+                    <span class="absolute text-xl">Toys &amp; Games</span>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="ads grid gap-6 mt-5 opacity-0">
+
+            <div class="ad p-5 relative overflow-hidden">
+                <div class="text">
+                    <h3 class=" text-lg mb-2">Amazon Basics</h3>
+                    <p class="text-sm">Shop Today's Deals, Lightning Deals, and
+                        limited-time discounts</p>
+                    <span class="flex items-center gap-3 text-sm">
+                        See more
+                        <i class="fa-solid fa-arrow-right-long fa-fw"></i>
+                    </span>
+                </div>
+                <img src="images/category5.png" alt="" class=" w-14 absolute">
+            </div>
+
+            <div class="ad p-5 relative overflow-hidden">
+                <div class="text">
+                    <h3 class=" text-lg mb-2">Deals & Promotions</h3>
+                    <p class="text-sm">Shop Today's Deals, Lightning Deals, and limited-
+                        time discounts</p>
+                    <span class="flex items-center gap-3 text-sm">See more
+                        <i class="fa-solid fa-arrow-right-long fa-fw"></i>
+                    </span>
+                </div>
+                <img src="images/category6.png" alt="" class=" w-14 absolute">
+            </div>
+
+        </div>
+
+        <div class="banner mt-5 p-10 flex items-center justify-between overflow-hidden opacity-0">
+            <div class="text">
+                <span class=" text-sm mb-3">Discover Amazon</span>
+                <h3>AMAZON DELIVERS TO YOU
+                </h3>
+                <p class="mt-5">
+                    Worldwide shipping. We ship to over 100 countries
+                    and regions, right to your doorstep.
+                </p>
+                <a href="" class="w-fit flex items-center justify-center py-1 px-3 rounded-md mt-5">
+                    <p>view more</p>
+                </a>
+            </div>
+            <img src="images/delivers.png" alt="" class=" relative top-10">
+        </div>
+
+        <div class="products mt-5 opacity-0">
+
+            <div class="top-sec flex items-center justify-between">
+                <h3 class="text-lg">Last viewed</h3>
+                <span class="flex items-center gap-2">View more
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </span>
+            </div>
+
+            <div class="cards grid gap-4 mt-5">
+
+                <div class="card relative">
+                    <i class="fa-regular fa-heart fa-fw text-2xl absolute right-6 opacity-0"></i>
+                    <i class="fa-solid fa-heart fa-fw text-2xl absolute right-6 opacity-0"></i>
+                    <img src="images/shoose1.png" alt="" class="w-44 h-34 mx-auto mt-7 mb-11">
+                    <span class="title text-sm">Ships to Ukraine</span>
+                    <p class="text-lg font-semibold my-2">Puma AXIS TR BOOT<br>WTR Black Man</p>
+                    <div class="stars relative inline-block mr-2 text-sm">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span class=" text-sm">342 reviews</span>
+                    <span class="block mt-2 text-2xl font-semibold">$150.99</span>
+                </div>
+
+                <div class="card relative">
+                    <i class="fa-regular fa-heart fa-fw text-2xl absolute right-6 opacity-0"></i>
+                    <i class="fa-solid fa-heart fa-fw text-2xl absolute right-6 opacity-0"></i>
+                        <img src="images/shoose2.png" alt="" class="w-44 h-34 mx-auto mt-11 mb-16">
+                    <span class="title text-sm">Ships to Ukraine</span>
+                    <p class="text-lg font-semibold my-2">Nike Air Man light<br>Red series</p>
+                    <div class="stars relative inline-block mr-2 text-sm">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span class=" text-sm">23 reviews</span>
+                    <span class="block mt-2 text-2xl font-semibold">$86.00</span>
+                </div>
+
+                <div class="card relative">
+                    <i class="fa-regular fa-heart fa-fw text-2xl absolute right-6 opacity-0"></i>
+                    <i class="fa-solid fa-heart fa-fw text-2xl absolute right-6 opacity-0"></i>
+                    <img src="images/shoose3.png" alt="" class="w-44 h-34 mx-auto mt-7 mb-11">
+                    <span class="title text-sm">Ships to Ukraine</span>
+                    <p class="text-lg font-semibold my-2">Adidas Fusion Storm<br>Winter</p>
+                    <div class="stars relative inline-block mr-2 text-sm">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span class=" text-sm">192 reviews</span>
+                    <span class="block mt-2 text-2xl font-semibold">$79.97</span>
+                </div>
+
+                <div class="card relative">
+                    <i class="fa-regular fa-heart fa-fw text-2xl absolute right-6 opacity-0"></i>
+                    <i class="fa-solid fa-heart fa-fw text-2xl absolute right-6 opacity-0"></i>
+                    <label class=" rounded-md text-xs py-1.5 px-2.5 text-white">Best Seller</label>
+                    <img src="images/shoose4.png" alt="" class=" w-44 h-34 mx-auto mt-1 mb-11">
+                    <span class="title text-sm">Ships to Ukraine</span>
+                    <p class="text-lg font-semibold my-2">Nike Cloudfoam Pure<br>Running Shoe</p>
+                    <div class="stars relative inline-block mr-2 text-sm">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span class=" text-sm">4971 reviews</span>
+                    <span class="block mt-2 text-2xl font-semibold">$68.99</span>
+                </div>
+
+                <div class="card relative">
+                    <i class="fa-regular fa-heart fa-fw text-2xl absolute right-6 opacity-0"></i>
+                    <i class="fa-solid fa-heart fa-fw text-2xl absolute right-6 opacity-0"></i>
+                    <img src="images/shoose5.png" alt="" class=" w-44 h-34 mx-auto mt-7 mb-11">
+                    <span class="title text-sm">Ships to Ukraine</span>
+                    <p class="text-lg font-semibold my-2">Puma AXIS TR BOOT<br>WTR Black Man</p>
+                    <div class="stars relative inline-block mr-2 text-sm">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span class=" text-sm">342 reviews</span>
+                    <div class="price flex items-center mt-2">
+                        <span class="text-2xl font-semibold">$59.94</span>
+                        <span class="text-sm font-semibold ml-6">Save $10.99</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="products mt-5 opacity-0">
+
+            <div class="top-sec flex items-center justify-between">
+                <h3 class="text-lg">Last viewed</h3>
+                <span class="flex items-center gap-2">See more
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </span>
+            </div>
+
+            <div class="cards grid gap-4 mt-5">
+
+                <div class="card relative">
+                    <i class="fa-regular fa-heart fa-fw text-2xl absolute right-6 opacity-0"></i>
+                    <i class="fa-solid fa-heart fa-fw text-2xl absolute right-6 opacity-0"></i>
+                    <label class=" rounded-md text-xs py-1.5 px-2.5 text-white">Best Seller</label>
+                    <img src="images/view1.png" alt="" class="w-44 h-36 mt-5 mb-10 mx-auto">
+                    <span class="title text-sm">Ships to Ukraine</span>
+                    <p class="text-lg font-semibold my-2">Amazon Basics<br>Lightning to USB</p>
+                    <div class="stars relative inline-block mr-2 text-sm">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span class=" text-sm">11 567 reviews</span>
+                    <span class="block mt-2 text-2xl font-semibold">$5.99</span>
+                </div>
+
+                <div class="card relative">
+                    <i class="fa-regular fa-heart fa-fw text-2xl absolute right-6 opacity-0"></i>
+                    <i class="fa-solid fa-heart fa-fw text-2xl absolute right-6 opacity-0"></i>
+                    <label class=" rounded-md text-xs py-1.5 px-2.5 text-white">Best Seller</label>
+                    <img src="images/view2.png" alt="" class="w-44 h-36 mt-5 mb-10 mx-auto">
+                    <span class="title text-sm">Ships to Ukraine</span>
+                    <p class="text-lg font-semibold my-2">Skyworth D-Series 24"<br>1080P Smart TV</p>
+                    <div class="stars relative inline-block mr-2 text-sm">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span class=" text-sm">192 reviews</span>
+                    <span class="block mt-2 text-2xl font-semibold">$129.97</span>
+                </div>
+
+                <div class="card relative">
+                    <i class="fa-regular fa-heart fa-fw text-2xl absolute right-6 opacity-0"></i>
+                    <i class="fa-solid fa-heart fa-fw text-2xl absolute right-6 opacity-0"></i>
+                    <label class=" rounded-md text-xs py-1.5 px-2.5 text-white">Best Seller</label>
+                    <img src="images/landing3.png" alt="" class=" w-40 h-36 mt-5 mb-10 mx-auto">
+                    <span class="title text-sm">Ships to Ukraine</span>
+                    <p class="text-lg font-semibold my-2">Instant Pot Duo 7-in-1<br>Electric Cooker</p>
+                    <div class="stars relative inline-block mr-2 text-sm">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span class=" text-sm">488 reviews</span>
+                    <div class="price flex items-center mt-2">
+                        <span class="text-2xl font-semibold">$24.99</span>
+                        <span class="text-sm font-semibold ml-6 line-through">$99.95</span>
+                    </div>
+                </div>
+
+                <div class="card relative">
+                    <i class="fa-regular fa-heart fa-fw text-2xl absolute right-6 opacity-0"></i>
+                    <i class="fa-solid fa-heart fa-fw text-2xl absolute right-6 opacity-0"></i>
+                    <label class=" rounded-md text-xs py-1.5 px-2.5 text-white">Best Seller</label>
+                    <img src="images/view3.png" alt="" class=" w-40 h-36 mt-5 mb-10 mx-auto">
+                    <span class="title text-sm">Ships to Ukraine</span>
+                    <p class="text-lg font-semibold my-2">Philips 1875W Dry<br>Care Essential IONIC</p>
+                    <div class="stars relative inline-block mr-2 text-sm">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span class=" text-sm">3643 reviews</span>
+                    <div class="price flex items-center mt-2">
+                        <span class="text-2xl font-semibold">$24.99</span>
+                        <span class="text-sm font-semibold ml-6">($24.99/Count)</span>
+                    </div>
+                </div>
+
+                <div class="card relative">
+                    <i class="fa-regular fa-heart fa-fw text-2xl absolute right-6 opacity-0"></i>
+                    <i class="fa-solid fa-heart fa-fw text-2xl absolute right-6 opacity-0"></i>
+                    <label class=" rounded-md text-xs py-1.5 px-2.5 text-white">Best Seller</label>
+                    <img src="images/view4.png" alt="" class=" w-40 h-36 mt-5 mb-10 mx-auto">
+                    <span class="title text-sm">Ships to Ukraine</span>
+                    <p class="text-lg font-semibold my-2">GreenPan Stackable<br>Hard, Frying Pan, 12"</p>
+                    <div class="stars relative inline-block mr-2 text-sm">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span class=" text-sm">488 reviews</span>
+                    <div class="price flex items-center mt-2">
+                        <span class="text-2xl font-semibold">$59.94</span>
+                        <span class="text-sm font-semibold ml-6">Save $11.95</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="styles-offer grid mt-5 gap-6 opacity-0">
+
+            <div class="style flex justify-between p-8 overflow-hidden">
+                <div class="card-content">
+                    <div class="info">
+                        <h3 class="text-3xl font-semibold">Comfy styles for You</h3>
+                        <p class="my-8 text-lg w-80">Shop Amazon Fashion including clothing,
+                            shoes, jewelry, watches, bags and more</p>
+                        <span class="flex items-center gap-2">See more
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </span>
+                    </div>
+                    <div class="content flex items-center justify-center mt-11 ml-6 ">
+                        <img src="images/style-you.png" alt="" class="cloth mr-6 w-16">
+                        <div class="text mr-5">
+                            <span class="block font-medium text-xl">Top Handbags</span>
+                            <span class=" font-normal text-lg">Big Sale 30%</span>
+                        </div>
+                        <i class="fa-solid fa-angle-right fa-fw text-sm arrow rounded-full flex items-center justify-center"></i>
+                    </div>
+                </div>
+                <img src="images/person1.png" alt="" class="person relative top-8 min-w-48">
+            </div>
+            
+            <div class="style flex justify-between p-8 overflow-hidden">
+                <div class="card-content">
+                    <div class="info">
+                        <h3 class="text-3xl font-semibold">Comfy styles for You</h3>
+                        <p class="my-8 text-lg w-80">Shop Amazon Fashion including clothing,
+                            shoes, jewelry, watches, bags and more</p>
+                        <span class="flex items-center gap-2">See more
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </span>
+                    </div>
+                    <div class="content flex items-center justify-center mt-11 ml-6 ">
+                        <img src="images/style-him.png" alt="" class="cloth mr-6 w-28">
+                        <div class="text mr-5">
+                            <span class="block font-medium text-xl">Checkered shirt</span>
+                            <span class=" font-normal text-lg">Big Sale 30%</span>
+                        </div>
+                        <i class="fa-solid fa-angle-right fa-fw text-sm arrow rounded-full flex items-center justify-center"></i>
+                    </div>
+                </div>
+                <img src="images/person2.png" alt="" class="person relative top-8 min-w-48">
+            </div>
+
+        </div>
+
+        <div class="products mt-12 opacity-0">
+
+            <div class="top-sec flex items-center justify-between">
+                <h3 class="text-lg">Tomas, this muste to have for you</h3>
+                <span class="flex items-center gap-2">See more
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </span>
+            </div>
+
+            <div class="cards grid gap-4 mt-5">
+
+                <div class="card relative">
+                    <i class="fa-regular fa-heart fa-fw text-2xl absolute right-6 opacity-0"></i>
+                    <i class="fa-solid fa-heart fa-fw text-2xl absolute right-6 opacity-0"></i>
+                    <img src="images/tech-1.png" alt="" class=" w-28 h-40 mt-10 mb-11 mx-auto">
+                    <span class="title text-sm">Ships to Ukraine</span>
+                    <p class="text-lg font-semibold my-2">Xiaomi Mi Bluetooth<br>Mouse Silver</p>
+                    <div class="stars relative inline-block mr-2 text-sm">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span class=" text-sm">1898 reviews</span>
+                    <span class="block mt-2 text-2xl font-semibold">$20.99</span>
+                </div>
+
+                <div class="card relative">
+                    <i class="fa-regular fa-heart fa-fw text-2xl absolute right-6 opacity-0"></i>
+                    <i class="fa-solid fa-heart fa-fw text-2xl absolute right-6 opacity-0"></i>
+                    <img src="images/tech2.png" alt="" class="w-40 h-40 mt-10 mb-11 mx-auto">
+                    <span class="title text-sm">Ships to Ukraine</span>
+                    <p class="text-lg font-semibold my-2">Instant Pot Duo 7-in-1<br>Electric Cooker</p>
+                    <div class="stars relative inline-block mr-2 text-sm">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span class=" text-sm">167 879 reviews</span>
+                    <span class="block mt-2 text-2xl font-semibold">$400.60</span>
+                </div>
+
+                <div class="card relative">
+                    <i class="fa-regular fa-heart fa-fw text-2xl absolute right-6 opacity-0"></i>
+                    <i class="fa-solid fa-heart fa-fw text-2xl absolute right-6 opacity-0"></i>
+                    <label class=" rounded-md text-xs py-1.5 px-2.5 text-white">Best Seller</label>
+                    <img src="images/tech3.png" alt="" class=" w-36 h-40 mt-5 mb-10 mx-auto">
+                    <span class="title text-sm">Ships to Ukraine</span>
+                    <p class="text-lg font-semibold my-2">Razer Man O'War 7.1<br>headphones Razer</p>
+                    <div class="stars relative inline-block mr-2 text-sm">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span class=" text-sm">167 879 reviews</span>
+                    <div class="price flex items-center mt-2">
+                        <span class="text-2xl font-semibold">$45.45</span>
+                        <span class="text-sm font-semibold ml-6 line-through">$54.00</span>
+                    </div>
+                </div>
+
+                <div class="card relative">
+                    <i class="fa-regular fa-heart fa-fw text-2xl absolute right-6 opacity-0"></i>
+                    <i class="fa-solid fa-heart fa-fw text-2xl absolute right-6 opacity-0"></i>
+                    <label class=" rounded-md text-xs py-1.5 px-2.5 text-white">Best Seller</label>
+                    <img src="images/tech4.png" alt="" class=" w-40 h-36 mt-9 mb-10 mx-auto">
+                    <span class="title text-sm">Ships to Ukraine</span>
+                    <p class="text-lg font-semibold my-2">Bluetooth Sennheiser<br>headphones CX 150BT</p>
+                    <div class="stars relative inline-block mr-2 text-sm">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span class=" text-sm">167 879 reviews</span>
+                    <div class="price flex items-center mt-2">
+                        <span class="text-2xl font-semibold">$20.50</span>
+                        <span class="text-sm font-semibold ml-6 line-through">$32.00</span>
+                    </div>
+                </div>
+
+                <div class="card relative">
+                    <i class="fa-regular fa-heart fa-fw text-2xl absolute right-6 opacity-0"></i>
+                    <i class="fa-solid fa-heart fa-fw text-2xl absolute right-6 opacity-0"></i>
+                    <img src="images/tech5.png" alt="" class=" w-40 h-40 mt-10 mb-11 mx-auto">
+                    <span class="title text-sm">Ships to Ukraine</span>
+                    <p class="text-lg font-semibold my-2">Headphones wireless<br>TWS Xiaomi Mi True</p>
+                    <div class="stars relative inline-block mr-2 text-sm">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span class=" text-sm">15 678 reviews</span>
+                    <div class="price flex items-center mt-2">
+                        <span class="text-2xl font-semibold">$20.50</span>
+                        <span class="text-sm font-semibold ml-6 line-through">$32.00</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="offers mt-5 rounded-sm flex relative opacity-0">
+            <i class="fa-solid fa-angle-left fa-fw text-sm arrow rounded-full flex items-center justify-center absolute left-3 cursor-pointer"></i>
+            <i class="fa-solid fa-angle-right fa-fw text-sm arrow rounded-full flex items-center justify-center absolute right-3 cursor-pointer"></i>
+
+            <div class="slide overflow-x-auto p-5 px-3 mx-20">
+                <div class="content flex items-center gap-20">
+                    <div class="part flex items-center">
+                        <img src="images/ads-1.png" alt="" class="w-24 mr-3">
+                        <div class="text">
+                            <span class="block text-lg">Vacuum cleaners</span>
+                            <span class="text-base font-normal">Big Sale 20%</span>
+                        </div>
+                    </div>
+                    <div class="part flex items-center">
+                        <img src="images/ads-2.png" alt="" class=" w-24 mr-5">
+                        <div class="text">
+                            <span class="block text-lg">Xbox & Consoles</span>
+                            <span class="text-base font-normal">Big Sale 30%</span>
+                        </div>
+                    </div>
+                    <div class="part flex items-center">
+                        <img src="images/ads-3.png" alt="" class=" w-24 mr-3">
+                        <div class="text">
+                            <span class="block text-lg">Portable Speakers</span>
+                            <span class="text-base font-normal">Big Sale 30%</span>
+                        </div>
+                    </div>
+                    <div class="part flex items-center">
+                        <img src="images/ads-4.png" alt="" class=" w-24 mr-3">
+                        <div class="text">
+                            <span class="block text-lg">Projectors</span>
+                            <span class="text-base font-normal">Big Sale 20%</span>
+                        </div>
+                    </div>
+                    <div class="part flex items-center">
+                        <img src="images/ads-1.png" alt="" class="w-24 mr-3">
+                        <div class="text">
+                            <span class="block text-lg">Vacuum cleaners</span>
+                            <span class="text-base font-normal">Big Sale 20%</span>
+                        </div>
+                    </div>
+                    <div class="part flex items-center">
+                        <img src="images/ads-2.png" alt="" class=" w-24 mr-5">
+                        <div class="text">
+                            <span class="block text-lg">Xbox & Consoles</span>
+                            <span class="text-base font-normal">Big Sale 30%</span>
+                        </div>
+                    </div>
+                    <div class="part flex items-center">
+                        <img src="images/ads-3.png" alt="" class=" w-24 mr-3">
+                        <div class="text">
+                            <span class="block text-lg">Portable Speakers</span>
+                            <span class="text-base font-normal">Big Sale 30%</span>
+                        </div>
+                    </div>
+                    <div class="part flex items-center">
+                        <img src="images/ads-4.png" alt="" class=" w-24 mr-3">
+                        <div class="text">
+                            <span class="block text-lg">Projectors</span>
+                            <span class="text-base font-normal">Big Sale 20%</span>
+                        </div>
+                    </div>
+                    <div class="part flex items-center">
+                        <img src="images/ads-1.png" alt="" class="w-24 mr-3">
+                        <div class="text">
+                            <span class="block text-lg">Vacuum cleaners</span>
+                            <span class="text-base font-normal">Big Sale 20%</span>
+                        </div>
+                    </div>
+                    <div class="part flex items-center">
+                        <img src="images/ads-2.png" alt="" class=" w-24 mr-5">
+                        <div class="text">
+                            <span class="block text-lg">Xbox & Consoles</span>
+                            <span class="text-base font-normal">Big Sale 30%</span>
+                        </div>
+                    </div>
+                    <div class="part flex items-center">
+                        <img src="images/ads-3.png" alt="" class=" w-24 mr-3">
+                        <div class="text">
+                            <span class="block text-lg">Portable Speakers</span>
+                            <span class="text-base font-normal">Big Sale 30%</span>
+                        </div>
+                    </div>
+                    <div class="part flex items-center">
+                        <img src="images/ads-4.png" alt="" class=" w-24 mr-3">
+                        <div class="text">
+                            <span class="block text-lg">Projectors</span>
+                            <span class="text-base font-normal">Big Sale 20%</span>
+                        </div>
+                    </div>
+                    <div class="part flex items-center">
+                        <img src="images/ads-1.png" alt="" class="w-24 mr-3">
+                        <div class="text">
+                            <span class="block text-lg">Vacuum cleaners</span>
+                            <span class="text-base font-normal">Big Sale 20%</span>
+                        </div>
+                    </div>
+                    <div class="part flex items-center">
+                        <img src="images/ads-2.png" alt="" class=" w-24 mr-5">
+                        <div class="text">
+                            <span class="block text-lg">Xbox & Consoles</span>
+                            <span class="text-base font-normal">Big Sale 30%</span>
+                        </div>
+                    </div>
+                    <div class="part flex items-center">
+                        <img src="images/ads-3.png" alt="" class=" w-24 mr-3">
+                        <div class="text">
+                            <span class="block text-lg">Portable Speakers</span>
+                            <span class="text-base font-normal">Big Sale 30%</span>
+                        </div>
+                    </div>
+                    <div class="part flex items-center">
+                        <img src="images/ads-4.png" alt="" class=" w-24 mr-3">
+                        <div class="text">
+                            <span class="block text-lg">Projectors</span>
+                            <span class="text-base font-normal">Big Sale 20%</span>
+                        </div>
+                    </div>
+                    <div class="part flex items-center">
+                        <img src="images/ads-1.png" alt="" class="w-24 mr-3">
+                        <div class="text">
+                            <span class="block text-lg">Vacuum cleaners</span>
+                            <span class="text-base font-normal">Big Sale 20%</span>
+                        </div>
+                    </div>
+                    <div class="part flex items-center">
+                        <img src="images/ads-2.png" alt="" class=" w-24 mr-5">
+                        <div class="text">
+                            <span class="block text-lg">Xbox & Consoles</span>
+                            <span class="text-base font-normal">Big Sale 30%</span>
+                        </div>
+                    </div>
+                    <div class="part flex items-center">
+                        <img src="images/ads-3.png" alt="" class=" w-24 mr-3">
+                        <div class="text">
+                            <span class="block text-lg">Portable Speakers</span>
+                            <span class="text-base font-normal">Big Sale 30%</span>
+                        </div>
+                    </div>
+                    <div class="part flex items-center">
+                        <img src="images/ads-4.png" alt="" class=" w-24 mr-3">
+                        <div class="text">
+                            <span class="block text-lg">Projectors</span>
+                            <span class="text-base font-normal">Big Sale 20%</span>
+                        </div>
+                    </div>
+                    <div class="part flex items-center">
+                        <img src="images/ads-1.png" alt="" class="w-24 mr-3">
+                        <div class="text">
+                            <span class="block text-lg">Vacuum cleaners</span>
+                            <span class="text-base font-normal">Big Sale 20%</span>
+                        </div>
+                    </div>
+                    <div class="part flex items-center">
+                        <img src="images/ads-2.png" alt="" class=" w-24 mr-5">
+                        <div class="text">
+                            <span class="block text-lg">Xbox & Consoles</span>
+                            <span class="text-base font-normal">Big Sale 30%</span>
+                        </div>
+                    </div>
+                    <div class="part flex items-center">
+                        <img src="images/ads-3.png" alt="" class=" w-24 mr-3">
+                        <div class="text">
+                            <span class="block text-lg">Portable Speakers</span>
+                            <span class="text-base font-normal">Big Sale 30%</span>
+                        </div>
+                    </div>
+                    <div class="part flex items-center">
+                        <img src="images/ads-4.png" alt="" class=" w-24 mr-3">
+                        <div class="text">
+                            <span class="block text-lg">Projectors</span>
+                            <span class="text-base font-normal">Big Sale 20%</span>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="subscribe mt-5 p-10 flex justify-between items-center overflow-hidden opacity-0">
+            <div class="text">
+                <span class="block text-base mb-3">Discover Amazon</span>
+                <h3>SUBSCRIBE TO THE NEWS</h3>
+                <p class="mt-8 font-medium text-lg">
+                    Be aware of all discounts and bargains! Don't miss
+                    your benefit!
+                </p>
+                <a href="" class="w-fit flex items-center justify-center py-1 px-3 rounded-lg mt-6">
+                    <p>Subscribe</p>
+                </a>
+            </div>
+            <img src="images/person3.png" alt="" class="mr-28">
+        </div>
+
+        <div class="footer-links py-12 px-24 mt-5 relative opacity-0">
+
+            <div class="columns flex flex-wrap justify-between gap-5">
+
+                <div class="column">
+                    <h3 class="text-lg font-semibold mb-4">Get to Know US</h3>
+                    <ul>
+                        <li class="mb-2"><a href="">Careers</a></li>
+                        <li class="mb-2"><a href="">Blog</a></li>
+                        <li class="mb-2"><a href="">About Amazon</a></li>
+                        <li class="mb-2"><a href="">Investor Relations</a></li>
+                        <li class="mb-2"><a href="">Amazon Devices</a></li>
+                        <li class="mb-2"><a href="">Amazon Tours</a></li>
+                    </ul>
+                </div>
+
+                <div class="column">
+                    <h3 class="text-lg font-semibold mb-4">Make Money with Us</h3>
+                    <ul>
+                        <li class="mb-2"><a href="">Sell products on Amazon</a></li>
+                        <li class="mb-2"><a href="">Sell apps on Amazon</a></li>
+                        <li class="mb-2"><a href="">Become an Affiliate</a></li>
+                        <li class="mb-2"><a href="">Advertise Your Products</a></li>
+                        <li class="mb-2"><a href="">Self-Publish with Us</a></li>
+                        <li class="mb-2"><a href="">Host an Amazon Hub</a></li>
+                        <li class="mb-2"><a href="">See More Make Money with Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="column">
+                    <h3 class="text-lg font-semibold mb-4">Let Us Help You</h3>
+                    <ul>
+                        <li class="mb-2"><a href="">Amazon and COVID-19</a></li>
+                        <li class="mb-2"><a href="">Your Account</a></li>
+                        <li class="mb-2"><a href="">Your Orders</a></li>
+                        <li class="mb-2"><a href="">Shipping Rates & Policies</a></li>
+                        <li class="mb-2"><a href="">Returns & Replacements</a></li>
+                        <li class="mb-2"><a href="">Manage Your Content and Devices</a></li>
+                        <li class="mb-2"><a href="">Amazon Assistant</a></li>
+                        <li class="mb-2"><a href="">Help</a></li>
+                    </ul>
+                </div>
+
+                <div class="column">
+                    <h3 class="text-lg font-semibold mb-4">Amazon Payment Products</h3>
+                    <ul>
+                        <li class="mb-2"><a href="">Amazon Business Card</a></li>
+                        <li class="mb-2"><a href="">Shop with Points</a></li>
+                        <li class="mb-2"><a href="">Reload Your Balance</a></li>
+                        <li class="mb-2"><a href="">Amazon Currency Converter</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <span class="flex items-center mt-8">
+                <a href="" class="text-lg font-semibold">View more information</a>
+                <i class="fa-solid fa-chevron-down fa-fw text-xl ml-2"></i>
+            </span>
+
+        </div>
+
+        <div class="end-sec flex items-center justify-between mt-5 px-24 py-7 opacity-0">
+            <ul class="flex items-center gap-5">
+                <li><a href="">Conditions of Use</a></li>
+                <li><a href="">Privacy Notice</a></li>
+                <li><a href="">Interest-Based Ads</a></li>
+            </ul>
+
+            <span>&copy; 1996-2021, Amazon.com, Inc. or its affiliates</span>
+        </div>
 
 </body>
 </html>
