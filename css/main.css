@@ -288,6 +288,14 @@ body {
     }
 }
 
+.page .mobile-icons i {
+    transition: var(--tras);
+}
+
+.page .mobile-icons i:hover {
+    color: var(--buttons-c);
+}
+
 /* End Heading */
 
 
